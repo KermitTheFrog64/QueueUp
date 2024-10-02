@@ -1,16 +1,15 @@
-# Task Manager Application
+# Приложение для управления задачами
 
-This is a full-stack web application for managing tasks, built using React and Koa. It allows users to create, update, and track tasks with various functionalities like reminders and completion status.
+Это полнофункциональное веб-приложение для управления задачами, построенное с использованием React и Koa. Оно позволяет пользователям создавать, обновлять и отслеживать задачи с различными функциями, такими как приоритеты, сроки и статус выполнения.
 
-## Features
-- User authentication (JWT-based)
-- Create, update, and delete tasks
-- Task prioritization and deadlines
-- Persistent storage with MySQL
-- Responsive UI for desktop and mobile
+## Функциональность
+- Регистрация и авторизация пользователей (на основе JWT)
+- Создание, обновление и удаление задач
+- Установка приоритетов и описания для задач
+- Сохранение данных в базе MySQL
 
-## Tech Stack
+## Стек
 - **Frontend**: React, Redux, TypeScript
 - **Backend**: Koa, TypeScript, TypeORM
-- **Database**: MySQL
-- **Others**: Docker, Nginx
+- **База данных**: MySQL
+- **Другие технологии**: Docker
