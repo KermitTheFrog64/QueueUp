@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 20px;
+    background-color: #5026A8;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Поверх всего контента */
+}
+
+.acc-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.user-name {
+    color: white;
+}
+
+.link {
+    color: white;
+}

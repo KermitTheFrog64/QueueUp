@@ -1,0 +1,23 @@
+button {
+    background-color:#5026A8 ; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Плавный переход */
+
+    :hover {
+        background-color: #0056b3; /* Цвет фона при наведении */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+    }
+
+    :focus {
+        outline: none; /* Убираем стандартное обведение при фокусе */
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Обведение при фокусе */
+    }
+
+
+}

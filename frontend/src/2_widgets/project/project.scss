@@ -1,0 +1,79 @@
+$padding: 30px;
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    padding: $padding;
+
+    .columns {
+        display: flex;
+        height: 100%;
+        gap: $padding;
+
+        .column {
+            border-radius: 10px;
+            min-height: 100%;
+            background-color: rgb(230, 230, 230);
+            width: 100%;
+            padding: 15px;
+            border-top: 5px solid transparent;
+
+            &.queue {
+                border-color: #A7ACC2;
+                //margin-left: 15px;
+            }
+
+            &.dev {
+                border-color: #BB93F5;
+            }
+
+            &.done {
+                border-color: #68CC5F;
+                // margin-right: 15px;
+            }
+        }
+    }
+
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: inherit;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-sizing: border-box;
+    /* Включает padding в высоту/ширину элемента */
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Выравнивание кнопок справа */
+    gap: 10px;
+}
+
+.header-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .project-name {
+        flex-shrink: 0; /* Не позволяет названию сжиматься */
+    }
+
+
+    .flex-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+}

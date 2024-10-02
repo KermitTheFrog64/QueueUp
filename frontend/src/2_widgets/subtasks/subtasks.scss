@@ -1,0 +1,36 @@
+.li {
+    cursor: pointer;
+    list-style-type: none;
+    margin-bottom: 5px;
+
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.subtask-remove-button {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-checkbox {
+    width: 15px;
+    height: 15px;
+    accent-color: #5026A8;
+    border: 2px solid #ccc;
+    margin-right: 8px;
+}
+

@@ -1,0 +1,69 @@
+.darkBg {
+    // class to add add a background color to slightly hide all the other components that are on the page
+    background-color: rgba(182, 182, 182, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+
+    // to center the modal on the screen
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+    overflow: auto;
+
+    // the body of our modal
+    display: inline-block;
+    background: white;
+    z-index: 10;
+
+    // styles
+    padding: 20px;
+    border-radius: 8px;
+    /* Закругленные углы */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Тень */
+    width: 500px;
+    /* Ширина окна */
+    max-width: 90%;
+    /* Максимальная ширина 90% экрана */
+
+    .modalHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 10px;
+        position: sticky;
+        top: 0; /* Заголовок будет прилипать к верхней части контейнера */
+        z-index: 10; /* Устанавливаем высокий z-index, чтобы заголовок перекрывал содержимое при прокрутке */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+
+        .heading {}
+
+        .modalClose {}
+    }
+
+    .modalContent {
+        margin-top: 20px;
+        /* Отступ сверху */
+        font-size: 16px;
+        /* Размер шрифта */
+        line-height: 1.5;
+        /* Межстрочный интервал */
+    }
+}
+
+.closeBtn {
+    cursor: pointer;
+
+    :hover {}
+}

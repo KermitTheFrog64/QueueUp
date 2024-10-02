@@ -1,0 +1,24 @@
+div::-webkit-scrollbar {
+    width: 8px;
+    /* Ширина всего элемента навигации */
+}
+
+div::-webkit-scrollbar-track {
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 9px;
+    /* Цвет дорожки */
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #F1F1F1;
+    /* Цвет бегунка */
+    border-radius: 20px;
+    /* Округление бегунка */
+    border: 3px solid #F1F1F1;
+    /* Оформление границ бегунка */
+}
+
+.overflow {
+    overflow: auto;
+}

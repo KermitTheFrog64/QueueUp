@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-1, .item-2 {
+    width: auto;
+}
+
+.item-2 {
+    cursor: pointer;
+}

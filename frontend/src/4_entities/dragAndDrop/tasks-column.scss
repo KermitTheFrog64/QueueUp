@@ -1,0 +1,39 @@
+.column {
+    position: relative;
+    
+    .column-content {
+        padding: 10px;
+
+        .column-header {
+            margin-bottom: 11px;
+        }
+    }
+}
+
+
+.add-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+/* Кнопка удаления задач */
+.delete-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}

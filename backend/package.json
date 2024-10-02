@@ -1,0 +1,35 @@
+{
+  "name": "todobackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.14.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/node": "^20.11.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}

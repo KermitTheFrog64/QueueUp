@@ -1,0 +1,66 @@
+/* Общий контейнер для формы */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.auth-background {
+    background-image: url('/home/natalie/Projects/toDo/toDoFrontend/src/2_widgets/authorization/background.png');
+}
+
+/* Содержимое формы */
+.form-content {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.text {
+    text-align: center;
+    padding: 15px 10px 0 10px;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+}
+
+.authorization-button {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.visibility-icon {
+    cursor: pointer;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+.error {
+    margin-bottom: 10px;
+    color: red;
+    font-size: 15px;
+}

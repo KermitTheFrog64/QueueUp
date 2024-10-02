@@ -1,0 +1,20 @@
+.menu {
+    position: relative;
+    display: inline-block;
+
+    .activator {
+        
+    }
+
+    .content {
+        display: none;
+        position: absolute;
+        white-space: nowrap;
+        top: 100%;
+        padding-top: 10px;
+    }
+
+    &:hover .content {
+        display: block;
+    }
+}

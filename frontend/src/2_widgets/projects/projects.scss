@@ -1,0 +1,29 @@
+/* Контейнер для списка проектов */
+.projects-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+    flex-direction: row;
+}
+
+/* Кнопка добавления проекта */
+.add-button {
+    margin-top: 20px;
+}
+
+.add-icon {
+    position: fixed;
+    bottom: 20px;
+    /* Расстояние от нижнего края страницы */
+    right: 20px;
+    /* Расстояние от правого края страницы */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Выравнивание кнопок справа */
+    gap: 10px;
+    /* Расстояние между кнопками */
+}
