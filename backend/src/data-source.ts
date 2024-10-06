@@ -17,7 +17,7 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "password",
     database: "todo",
-    synchronize: true, // only for dev (not for prod)
+    synchronize: false,
     logging: false,
     entities: [
         CommentEntity, FileEntity, PriorityEntity, ProjectEntity, StatusEntity, SubtaskEntity, TaskEntity, UserEntity
