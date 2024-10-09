@@ -1,6 +1,6 @@
 import { ACCESS_TOKEN_LOCAL_STORAGE_KEY } from ".."
 
-const BASE_URL = 'http://localhost:3001/api'
+const BASE_URL = 'https://queueup-6iwj.onrender.com/api'
 
 export interface RequestOptions<PayloadType = any> {
     path: string
