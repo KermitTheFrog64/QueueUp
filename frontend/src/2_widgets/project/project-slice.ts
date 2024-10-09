@@ -18,7 +18,7 @@ export const fetchCurrentProject = createAsyncThunk('board/get', async (id: numb
     return await fetchCurrentProjectRequest(id)
 })
 
-export const reorderTasks2 = createAsyncThunk('board/put', async (params, thunkAPI) => {
+export const reorderTasks2 = createAsyncThunk('board/put', async (thunkAPI) => {
 
     //@ts-ignore
     const state: AppState = thunkAPI.getState()
