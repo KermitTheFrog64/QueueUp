@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon",
+    "build": "tsc && vite build",
     "start": "node dist/index.js"
   },
   "keywords": [],
