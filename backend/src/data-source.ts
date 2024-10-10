@@ -11,12 +11,12 @@ import { FileEntity } from "./modules/files/entities/file.entity"
 import { UserEntity } from "./modules/users/entities/user.entity"
 
 export const AppDataSource = new DataSource({
-    type: "mysql",
+    type: "postgres",
     host: "localhost",
-    port: 6033,
+    port: 5432,
     username: "root",
     password: "password",
-    database: "todo",
+    database: "queueupdb",
     synchronize: false,
     logging: false,
     entities: [
