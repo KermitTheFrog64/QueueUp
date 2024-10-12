@@ -12,11 +12,11 @@ import { UserEntity } from "./modules/users/entities/user.entity"
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
+    host: "dpg-cs40hgtsvqrc73c9f3h0-a",
     port: 5432,
-    username: "root",
-    password: "password",
-    database: "queueupdb",
+    username: "queueupdb_user",
+    password: "RKHlygYT5wq2lewjLUqDIx00G9pFi7yy",
+    database: "QueueUpDB",
     synchronize: false,
     logging: false,
     entities: [
